@@ -31,7 +31,7 @@ public class DbInitializer
                 Status = Status.Live,
                 ReservePrice = 20000,
                 Seller = "bob",
-                AuctionEnd = DateTime.UtcNow.AddDays(10),
+                AuctionEnd = DateTime.UtcNow.AddDays(40),
                 Item = new Item
                 {
                     Make = "Ford",
